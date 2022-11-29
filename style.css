@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+/* Css del nav */
+
+.fondoNav{
+    background-color: white !important;
+}
+
+.colorAncla{
+    color: #ff0068 !important;
+}
+
+.fontNav{
+    font-family: 'Roboto Mono', monospace;
+    font-size: 1.2em;
+}
+
+.styleInput{
+    border-radius: 2em !important;
+}
+
+.styleBotton{
+    background-color: white !important;
+    border-radius: 2em !important;
+}
+
+.dropdown-menu {
+    border: 2px solid white !important;
+}
+
+.dropdown-item:active{
+    background-color: #0d41af !important;
+    color: #000 !important;
+}
+
+.dropdown-divider{
+    border: 1px solid white !important;
+}
+
+.styleBotton:hover{
+    background-color: #0d41af !important;
+    color: white !important;
+}
+
+/* Css Cards */
+
+.card{
+    padding: 0 !important;
+}
+
+.card-title{
+    color: #ff0068 !important;
+    font-size: 1.5em !important;
+}
+
+.styleBottonCard{
+    background-color: #0d41af !important;
+    color: white !important;
+    margin: 0 3.2em !important;
+    border-radius: 2em !important;
+}
+
+/* Css media query */
+
+@media (max-width: 991px) {
+    .navbar-toggler{
+        border: 2px solid white !important;
+    }
+    
+}
